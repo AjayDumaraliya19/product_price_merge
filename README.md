@@ -11,7 +11,7 @@ This is a Node.js project written in TypeScript that demonstrates how to merge t
 - [License](#license)
 
 ## Project Structure
-
+```json
 ├── node_modules/ # Dependencies installed by npm
 ├── src/ # Source folder containing TypeScript files
 │ └── index.ts # Main file that merges product and pricing data
@@ -20,6 +20,7 @@ This is a Node.js project written in TypeScript that demonstrates how to merge t
 ├── package.json # Project metadata and dependencies
 ├── tsconfig.json # TypeScript configuration file
 └── README.md # Project documentation (this file)
+```
 
 ## Requirements
 
@@ -32,11 +33,11 @@ Before you begin, ensure you have the following installed on your machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/PRODCT_PRICE_MERGE.git
+   git clone https://github.com/AjayDumaraliya19/product_price_merge.git
 
 2. Install the required dependencies:
     ```bash
-    Install the required dependencies:
+    npm install
 
 ### Running the Project
 This project uses nodemon for automatic reloading during development. To run the project, execute the following command:
@@ -57,5 +58,6 @@ When you run the project, you will see the enriched product data printed to the 
   { "id": 4, "sku": "klm", "productName": "name 1", "category": 3, "price": 40 },
   { "id": 5, "sku": "xyz", "productName": "name 1", "category": 1, "price": 50 }
 ]
+```
 
 This JSON output shows each product enriched with its corresponding price. If a product does not have an associated price, it will show `null` for the `price` field.
