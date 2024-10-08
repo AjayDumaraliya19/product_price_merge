@@ -8,18 +8,17 @@ This is a Node.js project written in TypeScript that demonstrates how to merge t
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [Output](#output)
-- [License](#license)
 
 ## Project Structure
 ```json
-├── node_modules/ # Dependencies installed by npm
-├── src/ # Source folder containing TypeScript files
-│ └── index.ts # Main file that merges product and pricing data
-├── nodemon.json # Configuration for nodemon
-├── package-lock.json # Automatically generated file for dependencies
-├── package.json # Project metadata and dependencies
-├── tsconfig.json # TypeScript configuration file
-└── README.md # Project documentation (this file)
+├── node_modules/           # Dependencies installed by npm
+├── src/                    # Source folder containing TypeScript files
+│ └── index.ts              # Main file that merges product and pricing data
+├── nodemon.json            # Configuration for nodemon
+├── package-lock.json       # Automatically generated file for dependencies
+├── package.json            # Project metadata and dependencies
+├── tsconfig.json           # TypeScript configuration file
+└── README.md               # Project documentation (this file)
 ```
 
 ## Requirements
